@@ -33,7 +33,7 @@ xhr.setRequestHeader("token", "TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ");
 xhr.send(data);
 ```
 
-### Sample Request in JS
+### Sample Request in FormData
 ```
 var data = new FormData();
 data.append("word", "العباسيية");

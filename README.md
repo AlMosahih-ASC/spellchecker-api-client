@@ -1,4 +1,5 @@
-Please direct your requests to info@arabicspellchecker.com
+Please direct your requests to info@arabicspellchecker.com.
+
 You can use this demo token `TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ` to test the speller. It needs to be sent in the request headers, for example:
 ```
 > POST /get_incorrect_words HTTP/1.1
@@ -10,7 +11,7 @@ You can use this demo token `TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ` to test the spell
 ```
 
 
-# API Endpoints:
+# API Endpoints
 
 ## POST /get_incorrect_words
 

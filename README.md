@@ -1,3 +1,15 @@
+Please direct your requests to info@arabicspellchecker.com
+You can use this demo token `TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ` to test the speller. It needs to be sent in the request headers, for example:
+```
+> POST /get_incorrect_words HTTP/1.1
+> Host: api.arabicspellchecker.com
+> Content-Type: multipart/form-data; boundary=X-BOUNDARY
+> Token: 51AyF6FIUMLfdEmNXQXC2GDZBQG7stBI
+> Accept: */*
+> Content-Length: 1427
+```
+
+
 # API Endpoints:
 
 ## POST /get_incorrect_words

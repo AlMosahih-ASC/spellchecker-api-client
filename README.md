@@ -10,6 +10,26 @@ You can use this demo token `TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ` to test the spell
 > Content-Length: 1427
 ```
 
+### Sample
+```
+var data = new FormData();
+data.append("word", "العباسيية");
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "https://api.arabicspellchecker.com/get_word_suggestions");
+xhr.setRequestHeader("token", "51AyF6FIUMLfdEmNXQXC2GDZBQG7stBI");
+
+xhr.send(data);
+```
+
 
 # API Endpoints
 

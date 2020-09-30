@@ -10,7 +10,7 @@ You can use this demo token `TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ` to test the spell
 > Content-Length: 1427
 ```
 
-### Sample
+### Sample Request in JS
 ```
 var data = new FormData();
 data.append("word", "العباسيية");

@@ -4,7 +4,7 @@ You can use this demo token `TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ` to test the spell
 > POST /get_incorrect_words HTTP/1.1
 > Host: api.arabicspellchecker.com
 > Content-Type: multipart/form-data; boundary=X-BOUNDARY
-> Token: 51AyF6FIUMLfdEmNXQXC2GDZBQG7stBI
+> Token: TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ
 > Accept: */*
 > Content-Length: 1427
 ```

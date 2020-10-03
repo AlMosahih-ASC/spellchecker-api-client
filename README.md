@@ -1,6 +1,4 @@
-Please direct your requests to info@arabicspellchecker.com.
-
-You can use this demo token `OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2` to test the speller. It needs to be sent in the request headers, for example:
+You can use this demo token `OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2` (New updated token) to test the speller. It needs to be sent in the request headers, for example:
 ```
 > POST /get_incorrect_words HTTP/1.1
 > Host: api.arabicspellchecker.com
@@ -52,6 +50,9 @@ xhr.setRequestHeader("token", "TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ");
 
 xhr.send(data);
 ```
+
+For further into, please direct your requests to info@arabicspellchecker.com.
+
 
 
 # API Endpoints

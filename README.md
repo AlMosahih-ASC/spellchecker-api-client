@@ -26,7 +26,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("POST", "https://api.arabicspellchecker.com/get_word_suggestions");
 xhr.setRequestHeader("content-type", "application/json");
-xhr.setRequestHeader("token", "TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ");
+xhr.setRequestHeader("token", "OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2");
 
 xhr.send(data);
 ```
@@ -46,7 +46,7 @@ xhr.addEventListener("readystatechange", function () {
 });
 
 xhr.open("POST", "https://api.arabicspellchecker.com/get_word_suggestions");
-xhr.setRequestHeader("token", "TqMmyZEGGCEAmDdlfRLCbWnLGWZagACZ");
+xhr.setRequestHeader("token", "OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2");
 
 xhr.send(data);
 ```

@@ -16,7 +16,6 @@ var data = JSON.stringify({
 });
 
 var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
 
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {
@@ -37,7 +36,6 @@ var data = new FormData();
 data.append("word", "العباسيية");
 
 var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
 
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {

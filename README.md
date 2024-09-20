@@ -1,9 +1,11 @@
-You can use this demo token `OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2` (New updated token) to test the speller. It needs to be sent in the request headers, for example:
+## Obtaining Test Token and Usage Instructions:
+If you are looking to utilize the Arabic Spell Checker API with testing intentions, please reach out directly at `info@arabicspellchecker.com` for a test token dedicated exclusively for your development or evaluation purposes within our service scope as per terms of use and data privacy guidelines.
+
 ```
 > POST /get_incorrect_words HTTP/1.1
 > Host: api.arabicspellchecker.com
 > Content-Type: multipart/form-data; boundary=X-BOUNDARY
-> Token: OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2
+> Token: <token>
 > Accept: */*
 > Content-Length: 1427
 ```
@@ -25,7 +27,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("POST", "https://api.arabicspellchecker.com/get_word_suggestions");
 xhr.setRequestHeader("content-type", "application/json");
-xhr.setRequestHeader("token", "OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2");
+xhr.setRequestHeader("token", "<token>");
 
 xhr.send(data);
 ```
@@ -44,7 +46,7 @@ xhr.addEventListener("readystatechange", function () {
 });
 
 xhr.open("POST", "https://api.arabicspellchecker.com/get_word_suggestions");
-xhr.setRequestHeader("token", "OfaUFFcyjIQObEPSkl7sxCroM1uvrOO2");
+xhr.setRequestHeader("token", "<token>");
 
 xhr.send(data);
 ```
